@@ -1,8 +1,3 @@
-$('.what').click(function() {
-	console.log('here')
-	$('.fh5co-tabs li a').last().trigger('click')
-});
-
 ;(function () {
 
 	'use strict';
@@ -47,28 +42,6 @@ $('.what').click(function() {
 				$this.closest('.fh5co-tabs-container').find('.fh5co-tab-content').removeClass('active');
 				$this.closest('.fh5co-tabs-container').find('.fh5co-tab-content[data-tab-content="'+tab+'"]').addClass('active');
 		});
-
-		// $('.what').click(function(event){
-		// 	console.log('here')
-		// 	event.preventDefault();
-		// 	var $this = $(this),
-		// 		tab = $this.data('tab');
-		// 		$('.fh5co-tabs li').removeClass('active');
-		// 		$('li.services').addClass('active');
-		// 		$('.fh5co-tabs-container').find('.fh5co-tab-content').removeClass('active');
-		// 		$('.fh5co-tabs-container').find('.fh5co-tab-content[data-tab-content="'+tab+'"]').addClass('active');
-		// });
-	}
-
-	function something(event){
-		console.log('here')
-		event.preventDefault();
-		var $this = $(this),
-			tab = $this.data('tab');
-			$('.fh5co-tabs li').removeClass('active');
-			$this.closest('li').addClass('active');
-			$this.closest('.fh5co-tabs-container').find('.fh5co-tab-content').removeClass('active');
-			$this.closest('.fh5co-tabs-container').find('.fh5co-tab-content[data-tab-content="'+tab+'"]').addClass('active');
 	}
 
 	var gridAutoHeight = function() {
@@ -254,6 +227,9 @@ $('.what').click(function() {
 		$(window).resize(function(){
 			topVal = ( $(window).width() < 769 ) ? 0 : 58;
 		});
+
+		// console.log('here');
+
 		$('.fh5co-main-nav a:not([class="external"]), #fh5co-offcanvas a:not([class="external"]), a.fh5co-content-nav:not([class="external"])').click(function(event){
 			var section = $(this).data('nav-section');
 
@@ -281,9 +257,7 @@ $('.what').click(function() {
 
 	};
 
-	var navigationSection = function() {
-
-		var $section = $('div[data-section]');
+	var navigationSection = function() {		var $section = $('div[data-section]');
 
 		$section.waypoint(function(direction) {
 		  	if (direction === 'down') {
@@ -327,8 +301,11 @@ $('.what').click(function() {
 		clickMenu();
 		navigationSection();
 		goToTop();
-
+		// $('.service').click(function() {
+		// 	$('.fh5co-tabs li a').last().trigger('click')
+		// });
+		// $('.abouts').click(function() {
+		// 	$('.fh5co-tabs li a').first().trigger('click')
+		// });
 	});
-
-
 }());

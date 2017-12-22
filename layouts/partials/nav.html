@@ -5,11 +5,11 @@
 
 	<a href="#" data-nav-section="home">{{ with .Site.Params.nav }}{{ if isset . "logo" }}<img src={{ .logo | absURL }} height="20" alt="">{{ end }}{{ if (not (isset . "logo")) }}Home{{ end }}{{ end }}</a>
 
-	{{ if .Site.Params.mission.enable }}
-	<a href="#" data-nav-section="mission">{{ with .Site.Params.nav.mission }}{{ . | markdownify }}{{ end }}</a>
+	{{ if .Site.Params.aboutservices.enable }}
+	<a href="#" class="abouts" data-nav-section="aboutservices">{{ with .Site.Params.nav.aboutservices }}{{ . | markdownify }}{{ end }}</a>
+	<a href="#" class="service" data-nav-section="aboutservices">{{ with .Site.Params.nav.service }}{{ . | markdownify }}{{ end }}</a>
 	{{ end }}
 
-	<a href="#" class="what" data-tab-content="mission">{{ with .Site.Params.nav.service }}{{ . | markdownify }}{{ end }}</a>
 
 	{{ if .Site.Params.services.enable }}
 	<a href="#" data-nav-section="services">{{ with .Site.Params.nav.services }}{{ . | markdownify }}{{ end }}</a>

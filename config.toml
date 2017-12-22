@@ -5,38 +5,38 @@ title = "Clifton Park Remodeling"
 [params]
 author = "Terry Nellis"
 description = "Clifton Park Remodeling provides quality Home & Commercial improvement work at reasonable prices.  We have over 20 years of business experience operating in the Albany, Schenectady, Troy, & Saratoga - Capital Region of New York"
-[params.contact]
-enable = true
-message = "Please <a href='mailto:cliftonparkremodeling@gmail.com'>send an email</a> OR use the contact form below.  We will set up an appoinment as soon as possible."
-title = "Need a Quote?"
+[params.hero]
+description = "Providing Home and Commercial Remodeling in the Capital Region of New York since 1995"
+img = "images/hero_bg.jpg"
+title = "Clifton Park Remodeling"
 [params.footer]
 enable = true
 facebook = "#"
 linkedin = "#"
 note = "<p><small>&copy; 2017 Clifton Park Remodeling - Website by  <a href=\"chrislabargedev@gmail.com\">Chris LaBarge</a></p>"
-[params.hero]
-description = "Providing Home and Commercial Remodeling in the Capital Region of New York since 1995"
-img = "images/hero_bg.jpg"
-title = "Clifton Park Remodeling"
-[params.mission]
+[params.contact]
 enable = true
-[params.mission.images]
+message = "Please <a href='mailto:cliftonparkremodeling@gmail.com'>send an email</a> OR use the contact form below.  We will set up an appoinment as soon as possible."
+title = "Need a Quote?"
+[params.aboutservices]
+enable = true
+[params.aboutservices.images]
 enable = false
-[[params.mission.images.list]]
+[[params.aboutservices.images.list]]
 img = "images/img_3.jpg"
-[[params.mission.images.list]]
+[[params.aboutservices.images.list]]
 img = "images/img_2.jpg"
-[[params.mission.images.list]]
+[[params.aboutservices.images.list]]
 img = "images/img_1.jpg"
-[[params.mission.images.list]]
+[[params.aboutservices.images.list]]
 img = "images/img_4.jpg"
-[[params.mission.item]]
+[[params.aboutservices.item]]
 description = "<p>We are a Home & Commercial Improvement company that offers a wide variety of services. We handle everything from carpentry, demolition, development and much more! We have years of experience, and hundreds of happy and satisfied customers. We also will provide before and after photos available per your request. We offer free estimates and will work on any size project, big or small.</p><ul class='checked'><li>Multitude of Services</li><li>Free Estimates</li><li>Quality Work</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 name = "about"
 subtitle = "Clifton Park Remodeling"
 title = "Who We Are"
 weight = 1
-[[params.mission.item]]
+[[params.aboutservices.item]]
 description = "<ul class='checked'><li>Carpentry</li><li>Tile/Masonry</li><li>Kitchens</li><li>Bathrooms</li><li>Basements</li><li>Lighting</li><li>Outdoor Deck/Patio</li><li>Siding</li><li>Windows</li><li>Doors</li><li>Drywall</li><li>Painting</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 name = "services"
 subtitle = "Are services include, but are not limited to:"
@@ -44,7 +44,7 @@ title = "Services"
 weight = 2
 [params.nav]
 contact = "Get In Touch"
-mission = "About"
+aboutservices = "About"
 service = "Services"
 services = "Why Us?"
 [params.services]
