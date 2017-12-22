@@ -5,19 +5,6 @@ title = "Clifton Park Remodeling"
 [params]
 author = "Terry Nellis"
 description = "Clifton Park Remodeling provides quality Home & Commercial improvement work at reasonable prices.  We have over 20 years of business experience operating in the Albany, Schenectady, Troy, & Saratoga - Capital Region of New York"
-[params.hero]
-description = "Providing Home and Commercial Remodeling in the Capital Region of New York since 1995"
-img = "images/hero_bg.jpg"
-title = "Clifton Park Remodeling"
-[params.footer]
-enable = true
-facebook = "#"
-linkedin = "#"
-note = "<p><small>&copy; 2017 Clifton Park Remodeling - Website by  <a href=\"chrislabargedev@gmail.com\">Chris LaBarge</a></p>"
-[params.contact]
-enable = true
-message = "Please <a href='mailto:cliftonparkremodeling@gmail.com'>send an email</a> OR use the contact form below.  We will set up an appoinment as soon as possible."
-title = "Need a Quote?"
 [params.aboutservices]
 enable = true
 [params.aboutservices.images]
@@ -42,9 +29,22 @@ name = "services"
 subtitle = "Are services include, but are not limited to:"
 title = "Services"
 weight = 2
+[params.contact]
+enable = true
+message = "Please <a href='mailto:cliftonparkremodeling@gmail.com'>send an email</a> OR use the contact form below.  We will set up an appoinment as soon as possible."
+title = "Need a Quote?"
+[params.footer]
+enable = true
+facebook = "#"
+linkedin = "#"
+note = "<p><small>&copy; 2017 Clifton Park Remodeling - Website by  <a href=\"chrislabargedev@gmail.com\">Chris LaBarge</a></p>"
+[params.hero]
+description = "Providing Home and Commercial Remodeling in the Capital Region of New York since 1995"
+img = "images/hero_bg.jpg"
+title = "Clifton Park Remodeling"
 [params.nav]
-contact = "Get In Touch"
 aboutservices = "About"
+contact = "Get In Touch"
 service = "Services"
 services = "Why Us?"
 [params.services]
