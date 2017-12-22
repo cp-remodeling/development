@@ -4,7 +4,7 @@ theme = "hugo-icon"
 title = "Clifton Park Remodeling"
 [params]
 author = "Terry Nellis"
-description = "Clifton Park Remodeling provides quality work at reasonable prices.  We have over 20 years of business experience operating in the Albany, Schenectady, Troy, & Saratoga - Capital Region of New York"
+description = "Clifton Park Remodeling provides quality Home & Commercial improvement work at reasonable prices.  We have over 20 years of business experience operating in the Albany, Schenectady, Troy, & Saratoga - Capital Region of New York"
 [params.contact]
 enable = true
 message = "Please <a href='mailto:cliftonparkremodeling@gmail.com'>send an email</a> OR use the contact form below.  We will set up an appoinment as soon as possible."
