@@ -1,4 +1,4 @@
-baseURL = "http://cliftonparkremodeling.getforge.io/"
+baseURL = "https://cp-remodeling.github.io/"
 languageCode = "en-AU"
 theme = "hugo-icon"
 title = "Clifton Park Remodeling"
