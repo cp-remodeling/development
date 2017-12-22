@@ -24,7 +24,7 @@ subtitle = "Clifton Park Remodeling"
 title = "Who We Are"
 weight = 1
 [[params.aboutservices.item]]
-description = "<ul class='checked'><li>Carpentry</li><li>Tile/Masonry</li><li>Kitchens</li><li>Bathrooms</li><li>Basements</li><li>Lighting</li><li>Outdoor Deck/Patio</li><li>Siding</li><li>Windows</li><li>Doors</li><li>Drywall</li><li>Painting</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+description = "<ul class='checked'><li>Carpentry</li><li>Tile & Masonry</li><li>Kitchens</li><li>Bathrooms</li><li>Basements</li><li>Lighting</li><li>Outdoor Deck/Patio</li><li>Siding</li><li>Windows</li><li>Doors</li><li>Drywall</li><li>Painting</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 name = "services"
 subtitle = "Are services include, but are not limited to:"
 title = "Services"
