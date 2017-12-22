@@ -3,7 +3,7 @@ languageCode = "en-AU"
 theme = "hugo-icon"
 title = "Clifton Park Remodeling"
 [params]
-author = "Your name"
+author = "Terry Nellis"
 description = "Cool description"
 [params.contact]
 enable = true
@@ -52,7 +52,7 @@ description = "You can drive yourself mad looking for the right company for your
 enable = true
 title = "Why go with Clifton Park Remodeling?"
 video = false
-vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+vidlink = ""
 [[params.services.item]]
 description = "From communication, to craftsmanship, we make sure to provide you with only the best quality experience all around."
 icon = "icon-wrench"
