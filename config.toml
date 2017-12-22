@@ -13,13 +13,14 @@ title = "Clifton Park Remodeling"
 [params.hero]
   img = "images/hero_bg.jpg"
   title = "Clifton Park Remodeling"
-  description = "Providing Home and Commercial Renovations in the Capital Region of New York since 1995"
+  description = "Providing Home and Commercial Remodeling in the Capital Region of New York since 1995"
 
 # Navigation section
 [params.nav]
-  mission = "Our Mission"
-  services = "Services"
-  team = "The Team"
+  mission = "About"
+  service = "Services"
+  services = "Why Us?"
+  # team = "The Team"
   contact = "Get In Touch"
   # Include logo instead if HOME:
   # logo = "path/to/logo"
@@ -29,7 +30,7 @@ title = "Clifton Park Remodeling"
   enable = true
 
   [params.mission.images]
-    enable = true
+    enable = false
 
     [[params.mission.images.list]]
       img = "images/img_3.jpg"
@@ -42,110 +43,110 @@ title = "Clifton Park Remodeling"
 
   [[params.mission.item]]
     weight = 1
-    name = "marketing"
-    title = "Marketing"
-    subtitle = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptate laborum sapiente officiis molestiaea."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    name = "about"
+    title = "Who We Are"
+    subtitle = "Clifton Park Remodeling"
+    description = "<p>We are a Home & Commercial Improvement company that offers a wide variety of services. We handle everything from carpentry, demolition, development and much more! We have years of experience, and hundreds of happy and satisfied customers. We also will provide before and after photos available per your request. We offer free estimates and will work on any size project, big or small.</p><ul class='checked'><li>Multitude of Services</li><li>Free Estimates</li><li>Quality Work</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
   [[params.mission.item]]
     weight = 2
-    name = "analysis"
-    title = "Resources"
-    subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    name = "services"
+    title = "Services"
+    subtitle = "Are services include, but are not limited to:"
+    description = "<ul class='checked'><li>Carpentry</li><li>Tile/Masonry</li><li>Kitchens</li><li>Bathrooms</li><li>Basements</li><li>Lighting</li><li>Outdoor Deck/Patio</li><li>Siding</li><li>Windows</li><li>Doors</li><li>Drywall</li><li>Painting</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
-  [[params.mission.item]]
-    weight = 3
-    name = "strategy"
-    title = "Strategy"
-    subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+  # [[params.mission.item]]
+  #   weight = 3
+  #   name = "strategy"
+  #   title = "Strategy"
+  #   subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
+  #   description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
 # Services section
 [params.services]
   enable = true
-  video = true
+  video = false
   vidlink = "https://vimeo.com/channels/staffpicks/93951774"
-  title = "Our Services"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  title = "Why go with Clifton Park Remodeling?"
+  description = "You can drive yourself mad looking for the right company for your project. Here is why you should come to us first!"
 
   [[params.services.item]]
-    icon = "icon-present"
-    title = "Web Development"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    icon = "icon-wrench"
+    title = "Top Quality Work"
+    description = "From communication, to craftsmanship, we make sure to provide you with only the best quality experience all around."
 
   [[params.services.item]]
-    icon = "icon-eye"
-    title = "Retina Ready"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    icon = "icon-like"
+    title = "Done Right the first time"
+    description = "We pride ourselves on making sure our finished product is reliable and durable, preventing unnessary fixes & maintenance."
 
   [[params.services.item]]
-    icon = "icon-paper-plane"
-    title = "Light Speed"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    icon = "icon-badge"
+    title = "Years of experience"
+    description = "We have been in the business a long time, and can provide you with first hand knowledge of what will and will not work."
 
-  [[params.services.item]]
-    icon = "icon-pencil"
-    title = "Copyrighting"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  # [[params.services.item]]
+  #   icon = "icon-pencil"
+  #   title = "Copyrighting"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-  [[params.services.item]]
-    icon = "icon-rocket"
-    title = "Load Fast"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  # [[params.services.item]]
+  #   icon = "icon-rocket"
+  #   title = "Load Fast"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-  [[params.services.item]]
-    icon = "icon-support"
-    title = "Customer Support"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  # [[params.services.item]]
+  #   icon = "icon-support"
+  #   title = "Customer Support"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
 # Work section
 [params.work]
   enable = true
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_1.jpg"
+    title = "Home Remodel"
+    subtitle = "Stairscase Entryway"
+    img = "images/stairs.jpg"
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_2.jpg"
+    title = "Commercial Remodel"
+    subtitle = "Tile Floor"
+    img = "images/floor.jpg"
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_3.jpg"
+    title = "Home Remodel"
+    subtitle = "Basement Den"
+    img = "images/basement.jpg"
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_2.jpg"
+    title = "Home Remodel"
+    subtitle = "Kitchen"
+    img = "images/kitchen.jpg"
 
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_3.jpg"
+  # [[params.work.item]]
+  #   title = "Consectetur adipisicing"
+  #   subtitle = "Web Design"
+  #   img = "images/img_3.jpg"
 
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_2.jpg"
+  # [[params.work.item]]
+  #   title = "Consectetur adipisicing"
+  #   subtitle = "Web Design"
+  #   img = "images/img_2.jpg"
 
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_3.jpg"
+  # [[params.work.item]]
+  #   title = "Consectetur adipisicing"
+  #   subtitle = "Web Design"
+  #   img = "images/img_3.jpg"
 
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_4.jpg"
+  # [[params.work.item]]
+  #   title = "Consectetur adipisicing"
+  #   subtitle = "Web Design"
+  #   img = "images/img_4.jpg"
 
 # Team section
 [params.team]
-  enable = true
+  enable = false
   title = "Meet The Team"
   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
@@ -197,17 +198,17 @@ title = "Clifton Park Remodeling"
 # Contact section
 [params.contact]
   enable = true
-  title = "Get In Touch"
-  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  title = "Need a Quote?"
+  message = "Please <a href='mailto:cliftonparkremodeling@gmail.com'>send an email</a> OR use the contact form below.  We will set up an appoinment as soon as possible."
 
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
 [params.footer]
   enable = true
-  note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
-  github = "#"
-  twitter = "#"
+  note = "<p><small>&copy; 2017 Clifton Park Remodeling - Website by Chris LaBarge</p>"
+  # github = "#"
+  # twitter = "#"
   facebook = "#"
-  vine = "#"
+  # vine = "#"
   linkedin = "#"
-  instagram = "#"
+  # instagram = "#"
